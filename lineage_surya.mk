@@ -16,9 +16,10 @@ $(call inherit-product, device/xiaomi/surya/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# crDroid build flag
+# Build Flags
 TARGET_EXCLUDES_AUDIOFX := true
-TARGET_DISABLE_MATLOG := true
+PRODUCT_NO_CAMERA := true
+TARGET_DISABLE_EPPE := true
 
 PRODUCT_NAME := lineage_surya
 PRODUCT_DEVICE := surya
