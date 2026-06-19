@@ -18,7 +18,6 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Build Flags
 TARGET_EXCLUDES_AUDIOFX := true
-PRODUCT_NO_CAMERA := true
 TARGET_DISABLE_EPPE := true
 
 PRODUCT_NAME := lineage_surya
